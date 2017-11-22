@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DC552B41FC563D500C5DB18 /* PopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */; };
+		7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B11FC563D500C5DB18 /* PopViewController.swift */; };
+		7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */; };
+		7DC552B71FC563D500C5DB18 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B31FC563D500C5DB18 /* PopAnimation.swift */; };
+		7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552BA1FC5717600C5DB18 /* DemoCell.swift */; };
+		7DC552BD1FC5717600C5DB18 /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC552BB1FC5717600C5DB18 /* DemoCell.xib */; };
 		7DCA51731FC26ED000B46882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51721FC26ED000B46882 /* AppDelegate.swift */; };
 		7DCA51751FC26ED000B46882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51741FC26ED000B46882 /* ViewController.swift */; };
 		7DCA51781FC26ED000B46882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA51761FC26ED000B46882 /* Main.storyboard */; };
 		7DCA517A1FC26ED000B46882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA51791FC26ED000B46882 /* Assets.xcassets */; };
 		7DCA517D1FC26ED000B46882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA517B1FC26ED000B46882 /* LaunchScreen.storyboard */; };
-		7DCA51851FC26F7700B46882 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51841FC26F7700B46882 /* ViewCell.swift */; };
-		7DCA51871FC2712B00B46882 /* CustomStyleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51861FC2712B00B46882 /* CustomStyleBtn.swift */; };
 		7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */; };
-		7DEE44821FC2A3F0002C9276 /* FromTopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44811FC2A3F0002C9276 /* FromTopAnimator.swift */; };
 		7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44831FC2A84D002C9276 /* SecondVC.swift */; };
 		7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
+		7DC552B11FC563D500C5DB18 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjPresentationCoutro.swift; sourceTree = "<group>"; };
+		7DC552B31FC563D500C5DB18 /* PopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimation.swift; sourceTree = "<group>"; };
+		7DC552BA1FC5717600C5DB18 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		7DC552BB1FC5717600C5DB18 /* DemoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
 		7DCA516F1FC26ED000B46882 /* wjDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wjDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCA51721FC26ED000B46882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCA51741FC26ED000B46882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,10 +37,7 @@
 		7DCA51791FC26ED000B46882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCA517C1FC26ED000B46882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCA517E1FC26ED000B46882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DCA51841FC26F7700B46882 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
-		7DCA51861FC2712B00B46882 /* CustomStyleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleBtn.swift; sourceTree = "<group>"; };
 		7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wjq_DropDownMenu.swift; sourceTree = "<group>"; };
-		7DEE44811FC2A3F0002C9276 /* FromTopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromTopAnimator.swift; sourceTree = "<group>"; };
 		7DEE44831FC2A84D002C9276 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WjqDropMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DC552AF1FC563D500C5DB18 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */,
+				7DC552B11FC563D500C5DB18 /* PopViewController.swift */,
+				7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */,
+				7DC552B31FC563D500C5DB18 /* PopAnimation.swift */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
 		7DCA51661FC26ED000B46882 = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +87,11 @@
 				7DCA51741FC26ED000B46882 /* ViewController.swift */,
 				7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */,
 				7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */,
-				7DEE44811FC2A3F0002C9276 /* FromTopAnimator.swift */,
 				7DEE44831FC2A84D002C9276 /* SecondVC.swift */,
 				7DCA51761FC26ED000B46882 /* Main.storyboard */,
-				7DCA51841FC26F7700B46882 /* ViewCell.swift */,
-				7DCA51861FC2712B00B46882 /* CustomStyleBtn.swift */,
+				7DC552BA1FC5717600C5DB18 /* DemoCell.swift */,
+				7DC552BB1FC5717600C5DB18 /* DemoCell.xib */,
+				7DC552AF1FC563D500C5DB18 /* PopView */,
 				7DCA51791FC26ED000B46882 /* Assets.xcassets */,
 				7DCA517B1FC26ED000B46882 /* LaunchScreen.storyboard */,
 				7DCA517E1FC26ED000B46882 /* Info.plist */,
@@ -142,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCA517D1FC26ED000B46882 /* LaunchScreen.storyboard in Resources */,
+				7DC552BD1FC5717600C5DB18 /* DemoCell.xib in Resources */,
+				7DC552B41FC563D500C5DB18 /* PopViewController.storyboard in Resources */,
 				7DCA517A1FC26ED000B46882 /* Assets.xcassets in Resources */,
 				7DCA51781FC26ED000B46882 /* Main.storyboard in Resources */,
 			);
@@ -154,14 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DEE44821FC2A3F0002C9276 /* FromTopAnimator.swift in Sources */,
+				7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */,
+				7DC552B71FC563D500C5DB18 /* PopAnimation.swift in Sources */,
 				7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */,
-				7DCA51851FC26F7700B46882 /* ViewCell.swift in Sources */,
+				7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */,
+				7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */,
 				7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */,
 				7DCA51751FC26ED000B46882 /* ViewController.swift in Sources */,
 				7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */,
 				7DCA51731FC26ED000B46882 /* AppDelegate.swift in Sources */,
-				7DCA51871FC2712B00B46882 /* CustomStyleBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

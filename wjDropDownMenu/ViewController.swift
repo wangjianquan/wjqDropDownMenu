@@ -29,6 +29,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         super.viewDidLoad()
     
 //        navigationItem.titleView = menu
+        self.tableView.register(UINib.init(nibName: demoCell, bundle: nil), forCellReuseIdentifier: demoCell)
         
         self.tableView.reloadData()
     
@@ -148,13 +149,14 @@ extension ViewController  {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewCell
-        cell.nameLabel.text = "白小嘿 - \(indexPath.row)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: demoCell, for: indexPath) as! DemoCell
+        cell.name.text = "白小嘿 - \(indexPath.row)"
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+        navigationController?.pushViewController(SecondVC(), animated: true)
     }
    
     

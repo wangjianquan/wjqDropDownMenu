@@ -1,16 +1,17 @@
 //
-//  ViewCell.swift
+//  DemoCell.swift
 //  wjDropDownMenu
 //
-//  Created by ulinix on 2017-11-20.
+//  Created by ulinix on 2017-11-22.
 //  Copyright © 2017 wjq. All rights reserved.
 //
 
 import UIKit
 
-class ViewCell: UITableViewCell {
-    
-    @IBOutlet weak var nameLabel: UILabel!
+let demoCell = "DemoCell"
+
+class DemoCell: UITableViewCell {
+    @IBOutlet weak var name: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,5 +23,5 @@ class ViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }

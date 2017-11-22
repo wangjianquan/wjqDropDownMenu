@@ -22,33 +22,6 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" red="0.27380867510000001" green="0.75632631650000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="3RM-1X-96r" customClass="ViewCell" customModule="wjDropDownMenu" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3RM-1X-96r" id="uTE-3U-acD">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJr-ga-6w5">
-                                                    <rect key="frame" x="15" y="22" width="345" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="ZJr-ga-6w5" firstAttribute="leading" secondItem="uTE-3U-acD" secondAttribute="leading" constant="15" id="6Xt-D5-61r"/>
-                                                <constraint firstItem="ZJr-ga-6w5" firstAttribute="centerY" secondItem="uTE-3U-acD" secondAttribute="centerY" id="hB4-zs-k8o"/>
-                                                <constraint firstAttribute="trailing" secondItem="ZJr-ga-6w5" secondAttribute="trailing" constant="15" id="jOM-mt-aAV"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
-                                        <connections>
-                                            <outlet property="nameLabel" destination="ZJr-ga-6w5" id="xdE-tS-sD2"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="h0U-Dg-zBZ"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="RzX-C3-FLE"/>
@@ -80,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="39.130434782608695"/>
+            <point key="canvasLocation" x="108" y="15"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BWX-t5-fFc">
@@ -98,7 +71,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cr8-tq-cog" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111.2" y="14.842578710644679"/>
+            <point key="canvasLocation" x="-1076" y="15"/>
         </scene>
     </scenes>
 </document>
