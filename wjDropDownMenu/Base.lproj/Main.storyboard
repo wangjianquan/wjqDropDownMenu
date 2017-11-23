@@ -71,7 +71,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Kk6-rY-6Xq" id="lit-bx-Rb5"/>
-                        <outlet property="view" destination="Kk6-rY-6Xq" id="skm-GN-DAA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
