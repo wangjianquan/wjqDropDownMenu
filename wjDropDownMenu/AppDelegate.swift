@@ -8,6 +8,10 @@
 
 import UIKit
 
+let screen_width : CGFloat = UIScreen.main.bounds.size.width
+
+let screen_height : CGFloat = UIScreen.main.bounds.size.height
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -42,5 +46,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+
+
+extension UIDevice {
+    public func isX() -> Bool {
+        if UIScreen.main.bounds.height == 812 {
+            return true
+        }
+        return false
+    }
 }
 

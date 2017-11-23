@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4965811FC6B586008B936F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4965801FC6B586008B936F /* BaseViewController.swift */; };
 		7DC552B41FC563D500C5DB18 /* PopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */; };
 		7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B11FC563D500C5DB18 /* PopViewController.swift */; };
 		7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4965801FC6B586008B936F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
 		7DC552B11FC563D500C5DB18 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjPresentationCoutro.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				7DCA51721FC26ED000B46882 /* AppDelegate.swift */,
 				7DCA51741FC26ED000B46882 /* ViewController.swift */,
+				7D4965801FC6B586008B936F /* BaseViewController.swift */,
 				7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */,
 				7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */,
 				7DEE44831FC2A84D002C9276 /* SecondVC.swift */,
@@ -180,6 +183,7 @@
 				7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */,
 				7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */,
 				7DCA51751FC26ED000B46882 /* ViewController.swift in Sources */,
+				7D4965811FC6B586008B936F /* BaseViewController.swift in Sources */,
 				7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */,
 				7DCA51731FC26ED000B46882 /* AppDelegate.swift in Sources */,
 			);

@@ -99,12 +99,16 @@ extension SecondVC : DropDownMenuDelegate {
     
     func btnClick(_ btn: UIButton) {
         
-       self.tableview.scrollToRow(at: IndexPath.init(row: 0, section: 1), at: UITableViewScrollPosition.bottom, animated: true)
+        
+        let Y = UIDevice.current.isX() == true ? 88 : 64
+        
+        self.tableview.contentOffset = CGPoint(x: 0, y: Y)
+        
         let pop = UIStoryboard(name: "PopViewController", bundle: nil)
         guard let vc = pop.instantiateInitialViewController() else { return  }
 
 
-        popAnimation.presentedFrame = CGRect(x:0 , y: 64 + self.menu.frame.size.height, width: self.view.frame.size.width, height: 230)
+        popAnimation.presentedFrame = CGRect(x:0 , y: CGFloat(Y) + self.menu.frame.size.height, width: self.view.frame.size.width, height: 230)
         popAnimation.presentedCallBack = {[weak self]
             (isPresent) -> () in
             self?.menu.btn.isSelected  = isPresent
