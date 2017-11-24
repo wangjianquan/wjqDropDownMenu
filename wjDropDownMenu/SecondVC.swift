@@ -21,7 +21,10 @@ class SecondVC: UIViewController ,UITableViewDelegate, UITableViewDataSource{
         tableview.estimatedSectionHeaderHeight = 0
         return tableview
     }()
+    var names = ["地区","价格","户型","更多"]
+    
     var menu =  Wjq_DropDownMenu()
+    
 //    lazy var menu: Wjq_DropDownMenu = {
 //        let menu =  Wjq_DropDownMenu(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.height, height: 44))
 //        menu.delegate = self
@@ -70,9 +73,9 @@ class SecondVC: UIViewController ,UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if section == 1 {
             
-           
-            let menu =  Wjq_DropDownMenu(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.height, height: 44))
+            let menu = Wjq_DropDownMenu(frame: CGRect(x: 0, y: 0, width: screen_width, height: 44))
             menu.delegate = self
+            menu.names = names
             self.menu = menu
             let origin_y = tableView.headerView(forSection: 1)?.superview?.frame.origin.y
             print("000000000000 ---  \(String(describing: origin_y))")
@@ -108,10 +111,13 @@ extension SecondVC : DropDownMenuDelegate {
         guard let vc = pop.instantiateInitialViewController() else { return  }
 
 
-        popAnimation.presentedFrame = CGRect(x:0 , y: CGFloat(Y) + self.menu.frame.size.height, width: self.view.frame.size.width, height: 230)
+        popAnimation.presentedFrame = CGRect(x:self.menu.frame.origin.x , y: CGFloat(Y) + self.menu.frame.size.height, width: self.view.frame.size.width, height: 230)
+        
         popAnimation.presentedCallBack = {[weak self]
             (isPresent) -> () in
-            self?.menu.btn.isSelected  = isPresent
+            btn.isSelected  = isPresent
+            print("\(String(describing: btn.currentTitle))")
+//            present(vc, animated: true, completion: nil)
         }
         vc.transitioningDelegate = popAnimation
         vc.modalPresentationStyle = .custom

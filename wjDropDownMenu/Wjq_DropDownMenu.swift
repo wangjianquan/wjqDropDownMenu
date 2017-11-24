@@ -15,28 +15,44 @@ protocol DropDownMenuDelegate : NSObjectProtocol {
 class Wjq_DropDownMenu: UIView {
     weak var delegate: DropDownMenuDelegate?
     
-    lazy var btn : UIButton = {
-        
-        let btn = UIButton(frame: CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: 88, height: self.frame.size.height))
-        
-        btn.setTitle("click", for: .normal)
-        btn.backgroundColor = UIColor.red
-        btn.setTitleColor(UIColor.black, for: .normal)
-        btn.titleLabel?.adjustsFontSizeToFitWidth = true
-        btn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
-        
-        return btn
-    }()
-    override init(frame: CGRect) {
+    var names : [String] {
+        didSet{
+            
+            let btn_Width = self.frame.size.width / CGFloat((names.count))
+            let btn_height = self.frame.size.height - 10
+            let btn_Y = (self.frame.size.height - btn_height) / 2
+            var btn_X : CGFloat = 0
+
+           for i in 0..<names.count {
+                let btn = UIButton(type: .custom)
+                btn.setTitle(names[i], for: .normal)
+                btn.setTitleColor(UIColor.black, for: .normal)
+                btn.titleLabel?.adjustsFontSizeToFitWidth = true
+                btn.titleLabel?.textAlignment = NSTextAlignment.center
+                
+                btn_X = CGFloat(i) * btn_Width
+            
+                btn.frame = CGRect(x: btn_X , y: btn_Y, width: btn_Width, height: btn_height)
+                btn.tag = 100 + i
+                btn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
+                addSubview(btn)
+            }
+        }
+    }
+    
+    
+   override init(frame: CGRect) {
+        self.names = [String]()
         super.init(frame: frame)
-        self.backgroundColor = UIColor.yellow
-        addSubview(btn)
-        
+        self.backgroundColor = UIColor.white
+    
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+   
     
     @objc func btnClick(_ sender: UIButton){
         

@@ -55,7 +55,7 @@ extension PopAnimation: UIViewControllerAnimatedTransitioning
 {
 
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return (transitionContext?.isAnimated)! ? 0.5 : 0
+        return (transitionContext?.isAnimated)! ? 0.2 : 0
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {

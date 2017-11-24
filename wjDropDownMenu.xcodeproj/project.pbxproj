@@ -22,9 +22,13 @@
 		7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */; };
 		7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44831FC2A84D002C9276 /* SecondVC.swift */; };
 		7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */; };
+		7DFD808B1FC7BF310014F52C /* LabelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD808A1FC7BF310014F52C /* LabelListView.swift */; };
+		DF1DCABCE7EA36785A201920 /* Pods_wjDropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07072256F19894CD00D6FAB0 /* Pods-wjDropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjDropDownMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wjDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4965801FC6B586008B936F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
 		7DC552B11FC563D500C5DB18 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wjq_DropDownMenu.swift; sourceTree = "<group>"; };
 		7DEE44831FC2A84D002C9276 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WjqDropMenu.swift; sourceTree = "<group>"; };
+		7DFD808A1FC7BF310014F52C /* LabelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelListView.swift; sourceTree = "<group>"; };
+		A43355B2536BAB19F469A1C1 /* Pods-wjDropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjDropDownMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +55,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1DCABCE7EA36785A201920 /* Pods_wjDropDownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E9ECC21E5859B16D7D25E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DC552AF1FC563D500C5DB18 /* PopView */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +86,8 @@
 			children = (
 				7DCA51711FC26ED000B46882 /* wjDropDownMenu */,
 				7DCA51701FC26ED000B46882 /* Products */,
+				BFFAC531F053BD4EA43A5A7F /* Pods */,
+				44E9ECC21E5859B16D7D25E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +105,7 @@
 				7DCA51721FC26ED000B46882 /* AppDelegate.swift */,
 				7DCA51741FC26ED000B46882 /* ViewController.swift */,
 				7D4965801FC6B586008B936F /* BaseViewController.swift */,
+				7DFD808A1FC7BF310014F52C /* LabelListView.swift */,
 				7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */,
 				7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */,
 				7DEE44831FC2A84D002C9276 /* SecondVC.swift */,
@@ -102,6 +120,15 @@
 			path = wjDropDownMenu;
 			sourceTree = "<group>";
 		};
+		BFFAC531F053BD4EA43A5A7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A43355B2536BAB19F469A1C1 /* Pods-wjDropDownMenu.debug.xcconfig */,
+				07072256F19894CD00D6FAB0 /* Pods-wjDropDownMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DCA51811FC26ED000B46882 /* Build configuration list for PBXNativeTarget "wjDropDownMenu" */;
 			buildPhases = (
+				B87222601D2D65D5C4F28673 /* [CP] Check Pods Manifest.lock */,
 				7DCA516B1FC26ED000B46882 /* Sources */,
 				7DCA516C1FC26ED000B46882 /* Frameworks */,
 				7DCA516D1FC26ED000B46882 /* Resources */,
+				97A1611B8617327F8E12544F /* [CP] Embed Pods Frameworks */,
+				2DF81156A9F3867144BCE247 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +201,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DF81156A9F3867144BCE247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A1611B8617327F8E12544F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87222601D2D65D5C4F28673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wjDropDownMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DCA516B1FC26ED000B46882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -179,6 +263,7 @@
 				7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */,
 				7DC552B71FC563D500C5DB18 /* PopAnimation.swift in Sources */,
 				7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */,
+				7DFD808B1FC7BF310014F52C /* LabelListView.swift in Sources */,
 				7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */,
 				7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */,
 				7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */,
@@ -320,6 +405,7 @@
 		};
 		7DCA51821FC26ED000B46882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43355B2536BAB19F469A1C1 /* Pods-wjDropDownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,6 +421,7 @@
 		};
 		7DCA51831FC26ED000B46882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07072256F19894CD00D6FAB0 /* Pods-wjDropDownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
