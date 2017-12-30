@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7D4965811FC6B586008B936F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4965801FC6B586008B936F /* BaseViewController.swift */; };
+		7D523F4C1FF747D00000B529 /* DoubleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D523F4A1FF747D00000B529 /* DoubleTableVC.swift */; };
+		7D523F4D1FF747D00000B529 /* DoubleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D523F4B1FF747D00000B529 /* DoubleTableVC.xib */; };
+		7D523F571FF7AE7D0000B529 /* usedCar.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D523F561FF7AE7C0000B529 /* usedCar.json */; };
+		7D523F591FF7AF480000B529 /* format.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D523F581FF7AF470000B529 /* format.json */; };
+		7D993FB51FF62F330087D49A /* DropMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D993FB41FF62F330087D49A /* DropMenuModel.swift */; };
 		7DC552B41FC563D500C5DB18 /* PopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */; };
 		7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B11FC563D500C5DB18 /* PopViewController.swift */; };
 		7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */; };
@@ -15,13 +20,19 @@
 		7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC552BA1FC5717600C5DB18 /* DemoCell.swift */; };
 		7DC552BD1FC5717600C5DB18 /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC552BB1FC5717600C5DB18 /* DemoCell.xib */; };
 		7DCA51731FC26ED000B46882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51721FC26ED000B46882 /* AppDelegate.swift */; };
-		7DCA51751FC26ED000B46882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51741FC26ED000B46882 /* ViewController.swift */; };
 		7DCA51781FC26ED000B46882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA51761FC26ED000B46882 /* Main.storyboard */; };
 		7DCA517A1FC26ED000B46882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA51791FC26ED000B46882 /* Assets.xcassets */; };
 		7DCA517D1FC26ED000B46882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCA517B1FC26ED000B46882 /* LaunchScreen.storyboard */; };
 		7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */; };
-		7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44831FC2A84D002C9276 /* SecondVC.swift */; };
-		7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */; };
+		7DD9D7941FF5D8B30091B9BC /* WjqDropMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7921FF5D8B30091B9BC /* WjqDropMenu.swift */; };
+		7DD9D7951FF5D8B30091B9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7931FF5D8B30091B9BC /* ViewController.swift */; };
+		7DD9D7981FF5D9D80091B9BC /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7971FF5D9D80091B9BC /* SecondVC.swift */; };
+		7DD9D7A01FF5DDD60091B9BC /* Choice.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9D79F1FF5DDD60091B9BC /* Choice.plist */; };
+		7DD9D7A21FF5DED50091B9BC /* ChoiceInfoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7A11FF5DED50091B9BC /* ChoiceInfoCollectionVC.swift */; };
+		7DD9D7A41FF5E06F0091B9BC /* ChoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7A31FF5E06F0091B9BC /* ChoiceModel.swift */; };
+		7DD9D7A71FF5E1D80091B9BC /* ChoiceInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9D7A51FF5E1D80091B9BC /* ChoiceInfoCell.xib */; };
+		7DD9D7A81FF5E1D80091B9BC /* ChoiceInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7A61FF5E1D80091B9BC /* ChoiceInfoCell.swift */; };
+		7DD9D7AA1FF5EE340091B9BC /* ConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9D7A91FF5EE340091B9BC /* ConditionVC.swift */; };
 		7DFD808B1FC7BF310014F52C /* LabelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD808A1FC7BF310014F52C /* LabelListView.swift */; };
 		DF1DCABCE7EA36785A201920 /* Pods_wjDropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +41,11 @@
 		07072256F19894CD00D6FAB0 /* Pods-wjDropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjDropDownMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
 		43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wjDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4965801FC6B586008B936F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7D523F4A1FF747D00000B529 /* DoubleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTableVC.swift; sourceTree = "<group>"; };
+		7D523F4B1FF747D00000B529 /* DoubleTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoubleTableVC.xib; sourceTree = "<group>"; };
+		7D523F561FF7AE7C0000B529 /* usedCar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usedCar.json; sourceTree = "<group>"; };
+		7D523F581FF7AF470000B529 /* format.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = format.json; sourceTree = "<group>"; };
+		7D993FB41FF62F330087D49A /* DropMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMenuModel.swift; sourceTree = "<group>"; };
 		7DC552B01FC563D500C5DB18 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
 		7DC552B11FC563D500C5DB18 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		7DC552B21FC563D500C5DB18 /* WjPresentationCoutro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjPresentationCoutro.swift; sourceTree = "<group>"; };
@@ -38,14 +54,20 @@
 		7DC552BB1FC5717600C5DB18 /* DemoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
 		7DCA516F1FC26ED000B46882 /* wjDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wjDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCA51721FC26ED000B46882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DCA51741FC26ED000B46882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DCA51771FC26ED000B46882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DCA51791FC26ED000B46882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCA517C1FC26ED000B46882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCA517E1FC26ED000B46882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wjq_DropDownMenu.swift; sourceTree = "<group>"; };
-		7DEE44831FC2A84D002C9276 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WjqDropMenu.swift; sourceTree = "<group>"; };
+		7DD9D7921FF5D8B30091B9BC /* WjqDropMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjqDropMenu.swift; sourceTree = "<group>"; };
+		7DD9D7931FF5D8B30091B9BC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DD9D7971FF5D9D80091B9BC /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		7DD9D79F1FF5DDD60091B9BC /* Choice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Choice.plist; sourceTree = "<group>"; };
+		7DD9D7A11FF5DED50091B9BC /* ChoiceInfoCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceInfoCollectionVC.swift; sourceTree = "<group>"; };
+		7DD9D7A31FF5E06F0091B9BC /* ChoiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceModel.swift; sourceTree = "<group>"; };
+		7DD9D7A51FF5E1D80091B9BC /* ChoiceInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoiceInfoCell.xib; sourceTree = "<group>"; };
+		7DD9D7A61FF5E1D80091B9BC /* ChoiceInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceInfoCell.swift; sourceTree = "<group>"; };
+		7DD9D7A91FF5EE340091B9BC /* ConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionVC.swift; sourceTree = "<group>"; };
 		7DFD808A1FC7BF310014F52C /* LabelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelListView.swift; sourceTree = "<group>"; };
 		A43355B2536BAB19F469A1C1 /* Pods-wjDropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjDropDownMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wjDropDownMenu/Pods-wjDropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +90,15 @@
 				43FCA33A75C1C9FC5358CB58 /* Pods_wjDropDownMenu.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB5902A1FF73E8400A37EA2 /* MenuVControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D523F4A1FF747D00000B529 /* DoubleTableVC.swift */,
+				7D523F4B1FF747D00000B529 /* DoubleTableVC.xib */,
+			);
+			path = MenuVControllers;
 			sourceTree = "<group>";
 		};
 		7DC552AF1FC563D500C5DB18 /* PopView */ = {
@@ -102,13 +133,15 @@
 		7DCA51711FC26ED000B46882 /* wjDropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				7DCA51721FC26ED000B46882 /* AppDelegate.swift */,
-				7DCA51741FC26ED000B46882 /* ViewController.swift */,
-				7D4965801FC6B586008B936F /* BaseViewController.swift */,
+				7D523F561FF7AE7C0000B529 /* usedCar.json */,
+				7D523F581FF7AF470000B529 /* format.json */,
+				7DB5902A1FF73E8400A37EA2 /* MenuVControllers */,
 				7DFD808A1FC7BF310014F52C /* LabelListView.swift */,
+				7DD9D7961FF5D99E0091B9BC /* Second_Project */,
+				7DD9D7911FF5D79F0091B9BC /* First_Project */,
+				7DCA51721FC26ED000B46882 /* AppDelegate.swift */,
+				7D4965801FC6B586008B936F /* BaseViewController.swift */,
 				7DCA51881FC274D000B46882 /* Wjq_DropDownMenu.swift */,
-				7DEE44851FC2B6AA002C9276 /* WjqDropMenu.swift */,
-				7DEE44831FC2A84D002C9276 /* SecondVC.swift */,
 				7DCA51761FC26ED000B46882 /* Main.storyboard */,
 				7DC552BA1FC5717600C5DB18 /* DemoCell.swift */,
 				7DC552BB1FC5717600C5DB18 /* DemoCell.xib */,
@@ -116,8 +149,32 @@
 				7DCA51791FC26ED000B46882 /* Assets.xcassets */,
 				7DCA517B1FC26ED000B46882 /* LaunchScreen.storyboard */,
 				7DCA517E1FC26ED000B46882 /* Info.plist */,
+				7DD9D79F1FF5DDD60091B9BC /* Choice.plist */,
 			);
 			path = wjDropDownMenu;
+			sourceTree = "<group>";
+		};
+		7DD9D7911FF5D79F0091B9BC /* First_Project */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9D7931FF5D8B30091B9BC /* ViewController.swift */,
+				7DD9D7921FF5D8B30091B9BC /* WjqDropMenu.swift */,
+			);
+			path = First_Project;
+			sourceTree = "<group>";
+		};
+		7DD9D7961FF5D99E0091B9BC /* Second_Project */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9D7A31FF5E06F0091B9BC /* ChoiceModel.swift */,
+				7D993FB41FF62F330087D49A /* DropMenuModel.swift */,
+				7DD9D7971FF5D9D80091B9BC /* SecondVC.swift */,
+				7DD9D7A91FF5EE340091B9BC /* ConditionVC.swift */,
+				7DD9D7A11FF5DED50091B9BC /* ChoiceInfoCollectionVC.swift */,
+				7DD9D7A61FF5E1D80091B9BC /* ChoiceInfoCell.swift */,
+				7DD9D7A51FF5E1D80091B9BC /* ChoiceInfoCell.xib */,
+			);
+			path = Second_Project;
 			sourceTree = "<group>";
 		};
 		BFFAC531F053BD4EA43A5A7F /* Pods */ = {
@@ -192,10 +249,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCA517D1FC26ED000B46882 /* LaunchScreen.storyboard in Resources */,
+				7D523F571FF7AE7D0000B529 /* usedCar.json in Resources */,
 				7DC552BD1FC5717600C5DB18 /* DemoCell.xib in Resources */,
 				7DC552B41FC563D500C5DB18 /* PopViewController.storyboard in Resources */,
+				7D523F591FF7AF480000B529 /* format.json in Resources */,
 				7DCA517A1FC26ED000B46882 /* Assets.xcassets in Resources */,
+				7DD9D7A01FF5DDD60091B9BC /* Choice.plist in Resources */,
 				7DCA51781FC26ED000B46882 /* Main.storyboard in Resources */,
+				7D523F4D1FF747D00000B529 /* DoubleTableVC.xib in Resources */,
+				7DD9D7A71FF5E1D80091B9BC /* ChoiceInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,16 +322,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD9D7A81FF5E1D80091B9BC /* ChoiceInfoCell.swift in Sources */,
+				7DD9D7A41FF5E06F0091B9BC /* ChoiceModel.swift in Sources */,
 				7DC552B61FC563D500C5DB18 /* WjPresentationCoutro.swift in Sources */,
 				7DC552B71FC563D500C5DB18 /* PopAnimation.swift in Sources */,
-				7DEE44861FC2B6AA002C9276 /* WjqDropMenu.swift in Sources */,
 				7DFD808B1FC7BF310014F52C /* LabelListView.swift in Sources */,
 				7DC552B51FC563D500C5DB18 /* PopViewController.swift in Sources */,
+				7DD9D7951FF5D8B30091B9BC /* ViewController.swift in Sources */,
+				7DD9D7941FF5D8B30091B9BC /* WjqDropMenu.swift in Sources */,
+				7DD9D7981FF5D9D80091B9BC /* SecondVC.swift in Sources */,
+				7D993FB51FF62F330087D49A /* DropMenuModel.swift in Sources */,
+				7DD9D7A21FF5DED50091B9BC /* ChoiceInfoCollectionVC.swift in Sources */,
 				7DC552BC1FC5717600C5DB18 /* DemoCell.swift in Sources */,
-				7DEE44841FC2A84D002C9276 /* SecondVC.swift in Sources */,
-				7DCA51751FC26ED000B46882 /* ViewController.swift in Sources */,
 				7D4965811FC6B586008B936F /* BaseViewController.swift in Sources */,
+				7D523F4C1FF747D00000B529 /* DoubleTableVC.swift in Sources */,
 				7DCA51891FC274D000B46882 /* Wjq_DropDownMenu.swift in Sources */,
+				7DD9D7AA1FF5EE340091B9BC /* ConditionVC.swift in Sources */,
 				7DCA51731FC26ED000B46882 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

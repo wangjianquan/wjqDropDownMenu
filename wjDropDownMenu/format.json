@@ -1,0 +1,502 @@
+﻿{
+    "state":"normal",
+    "title":"كىچىك ماشنا",
+    "uptime":"1514630807",
+    "up_time":"2017-12-30 18:46:47",
+    "top_slider":[
+        {
+            "title":"سىناق1",
+            "url":"http://m.nur.cn/index.shtml",
+            "thumb":"http://192.168.199.200/uqurfile/2017/1212/12121723114318405.png",
+            "action_type":"web_view",
+            "param_list":[
+
+            ]
+        },
+        {
+            "title":"22222222222222",
+            "url":"http://m.nur.cn/index.shtml",
+            "thumb":"http://192.168.199.200/uqurfile/2017/1212/12121723264356378.png",
+            "action_type":"web_view",
+            "param_list":[
+
+            ]
+        },
+        {
+            "title":"3333333333333",
+            "url":"http://m.nur.cn/index.shtml",
+            "thumb":"http://192.168.199.200/uqurfile/2017/1212/12121723176348390.png",
+            "action_type":"web_view",
+            "param_list":[
+
+            ]
+        }
+    ],
+    "action":[
+        {
+            "name":"كىچىك ماشنا",
+            "thumb":"http://192.168.199.200/Static/ico_list/ershouche.png",
+            "action_type":"list_maxina_list",
+            "cat_id":"30",
+            "param_list":[
+
+            ]
+        },
+        {
+            "name":"بولكىۋاي",
+            "thumb":"http://192.168.199.200/Static/ico_list/ershouche.png",
+            "action_type":"list_maxina_list",
+            "cat_id":"31",
+            "param_list":[
+
+            ]
+        },
+        {
+            "name":"ئىش ماشىنىلىرى",
+            "thumb":"http://192.168.199.200/Static/ico_list/ershouche.png",
+            "action_type":"list_one_line_txt",
+            "cat_id":"32",
+            "param_list":[
+
+            ]
+        },
+        {
+            "name":"يۈك ماشىنىسى",
+            "thumb":"http://192.168.199.200/Static/ico_list/ershouche.png",
+            "action_type":"list_one_line_txt",
+            "cat_id":"33",
+            "param_list":[
+
+            ]
+        }
+    ],
+    "filter":[
+        {
+            "name":"رايۇن تاللاڭ",
+            "check_value":"0",
+            "check_type":"radio",
+            "filter_type":"city",
+            "list":[
+                {
+                    "title":"ئۈرۈمچى شەھىرى",
+                    "value":"361",
+                    "key":"city_id"
+                },
+                {
+                    "title":"قاراماي شەھىرى",
+                    "value":"362",
+                    "key":"city_id"
+                },
+                {
+                    "title":"تۇرپان ۋىلايىتى",
+                    "value":"363",
+                    "key":"city_id"
+                },
+                {
+                    "title":"قومۇل ۋىلايىتى",
+                    "value":"364",
+                    "key":"city_id"
+                },
+                {
+                    "title":"سانجى خۇيزۇ ئاپتونوم ئوبلاستى",
+                    "value":"365",
+                    "key":"city_id"
+                },
+                {
+                    "title":"بورتالا موڭغۇل ئاپتونوم ئوبلاستى",
+                    "value":"366",
+                    "key":"city_id"
+                },
+                {
+                    "title":"باينغۇلىن موڭغۇل ئاپتونوم ئوبلاستى",
+                    "value":"367",
+                    "key":"city_id"
+                },
+                {
+                    "title":"ئاقسۇ ۋىلايىتى",
+                    "value":"368",
+                    "key":"city_id"
+                },
+                {
+                    "title":"قىزىلسۇ قىرغىز ئاپتونوم ئوبلاستى",
+                    "value":"369",
+                    "key":"city_id"
+                },
+                {
+                    "title":"قەشقەر ۋىلايىتى",
+                    "value":"370",
+                    "key":"city_id"
+                },
+                {
+                    "title":"خوتەن ۋىلايىتى",
+                    "value":"371",
+                    "key":"city_id"
+                },
+                {
+                    "title":"ئىلى قازاق ئاپتونوم ئوبلاستى",
+                    "value":"372",
+                    "key":"city_id"
+                },
+                {
+                    "title":"تارباغاتاي ۋىلايىتى",
+                    "value":"373",
+                    "key":"city_id"
+                },
+                {
+                    "title":"ئالتاي ۋىلايىتى",
+                    "value":"374",
+                    "key":"city_id"
+                },
+                {
+                    "title":"شىخەنزە شەھىرى",
+                    "value":"3536",
+                    "key":"city_id"
+                },
+                {
+                    "title":"ئالار شەھىرى",
+                    "value":"3538",
+                    "key":"city_id"
+                },
+                {
+                    "title":"تۇمشۇق شەھىرى",
+                    "value":"3539",
+                    "key":"city_id"
+                },
+                {
+                    "title":"ۋۇجياچۈ",
+                    "value":"3540",
+                    "key":"city_id"
+                }
+            ]
+        },
+        {
+            "name":"ماركا",
+            "check_value":"0",
+            "check_type":"radio",
+            "filter_type":"marka",
+            "list":[
+
+            ]
+        },
+        {
+            "name":"باھاسى",
+            "check_value":"0",
+            "check_type":"radio",
+            "filter_type":"price",
+            "list":[
+                {
+                    "title":"3 تۈمەندىن 5 تۈمەنگىچە",
+                    "value":"1",
+                    "key":"price"
+                },
+                {
+                    "title":"5 تۈمەندىن 8 تۈمەنگىچە",
+                    "value":"2",
+                    "key":"price"
+                }
+            ]
+        },
+        {
+            "name":"باشقىلار",
+            "check_value":"0",
+            "check_type":"more",
+            "filter_type":"more",
+            "list":[
+                {
+                    "name":"ئۇچۇر مەنبەسى",
+                    "check_value":"0",
+                    "check_type":"radio",
+                    "filter_type":"",
+                    "list":[
+                        {
+                            "title":"بارلىق ئۇچۇر",
+                            "value":"0",
+                            "key":"type"
+                        },
+                        {
+                            "title":"شەخسى ئۇچۇر",
+                            "value":"1",
+                            "key":"type"
+                        },
+                        {
+                            "title":"ماشىنا سودىگىرى",
+                            "value":"2",
+                            "key":"type"
+                        }
+                    ]
+                },
+                {
+                    "name":"يۈرگەن مۇساپىسى",
+                    "check_value":"0",
+                    "check_type":"radio",
+                    "filter_type":"",
+                    "list":[
+                        {
+                            "title":"بارلىق ئۇچۇرلار",
+                            "value":"0",
+                            "key":"mileage"
+                        },
+                        {
+                            "title":"1 تۈمەن كىلومىتىر",
+                            "value":"1",
+                            "key":"mileage"
+                        },
+                        {
+                            "title":"1_3 تۈمەن كىلومىتىر",
+                            "value":"2",
+                            "key":"mileage"
+                        }
+                    ]
+                },
+                {
+                    "name":"خوت تىپى",
+                    "check_value":"0",
+                    "check_type":"radio",
+                    "filter_type":"",
+                    "list":[
+                        {
+                            "title":"بارلىق ئۇچۇرلار",
+                            "value":"0",
+                            "key":"gearbox"
+                        },
+                        {
+                            "title":"قول خوت",
+                            "value":"1",
+                            "key":"gearbox"
+                        },
+                        {
+                            "title":"ئاپتۇماتىك خوت",
+                            "value":"2",
+                            "key":"gearbox"
+                        }
+                    ]
+                },
+                {
+                    "name":"يېقىلغۇ شەكلى",
+                    "check_value":"0",
+                    "check_type":"radio",
+                    "filter_type":"",
+                    "list":[
+                        {
+                            "title":"بارلىق ئۇچۇلار",
+                            "value":"0",
+                            "key":"fuel"
+                        },
+                        {
+                            "title":"汽油",
+                            "value":"1",
+                            "key":"fuel"
+                        },
+                        {
+                            "title":"采油",
+                            "value":"2",
+                            "key":"fuel"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "list":[
+        {
+            "info_id":"1002453",
+            "title":"خوندا سىتي 2009款 1.5L精英版MT",
+            "update_time":"1514530494",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1229/12291454381108642.jpgthumb_210_150.jpg"
+            ],
+            "author":"222222222222222",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"تۈنۈگۈن",
+            "top_txt":"",
+            "price":"12",
+            "car_license":"2010 - يىل",
+            "mileage":"330000 كىلومىتىر",
+            "price_txt":"120000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002452",
+            "title":"خوندا CR-V",
+            "update_time":"1514530363",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1229/12291452273064479.jpgthumb_210_150.jpg"
+            ],
+            "author":"33333333333333",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"تۈنۈگۈن",
+            "top_txt":"",
+            "price":"12",
+            "car_license":"2006 - يىل",
+            "mileage":"660000 كىلومىتىر",
+            "price_txt":"120000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002451",
+            "title":"خوندا فىت",
+            "update_time":"1514529962",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1229/12291437021518696.jpgthumb_210_150.jpg"
+            ],
+            "author":"2222222222222",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"تۈنۈگۈن",
+            "top_txt":"",
+            "price":"22",
+            "car_license":"2009 - يىل",
+            "mileage":"220000 كىلومىتىر",
+            "price_txt":"220000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002450",
+            "title":"خوندا فىت 2008款 1.5MT豪华版",
+            "update_time":"1514528247",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1229/12291414187860869.jpgthumb_210_150.jpg"
+            ],
+            "author":"信息内容",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"تۈنۈگۈن",
+            "top_txt":"",
+            "price":"25",
+            "car_license":"2008 - يىل",
+            "mileage":"5550000 كىلومىتىر",
+            "price_txt":"250000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002420",
+            "title":"长安轻型车 神骐T20 2016款 1.5L汽油仓栅车单排后单胎DAM15R",
+            "update_time":"1514187226",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12251532547731898.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"56",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"560000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002383",
+            "title":"تويوتا 雷凌 2017款 1.2T G 手动 精英版",
+            "update_time":"1514167232",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12250959421813145.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"54",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"540000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002384",
+            "title":"تويوتا 雷凌 2017款 1.2T G 手动 精英版",
+            "update_time":"1514167232",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12250959421813145.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"54",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"540000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002385",
+            "title":"تويوتا 雷凌 2017款 1.2T G 手动 精英版",
+            "update_time":"1514167232",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12250959421813145.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"54",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"540000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002386",
+            "title":"تويوتا 雷凌 2017款 1.2T G 手动 精英版",
+            "update_time":"1514167232",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12250959421813145.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"54",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"540000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        },
+        {
+            "info_id":"1002381",
+            "title":"تويوتا 雷凌 2017款 1.2T G 手动 精英版",
+            "update_time":"1514167232",
+            "thumb":[
+                "http://192.168.199.200/uqurfile/2017/1225/12250959421813145.jpgthumb_210_150.jpg"
+            ],
+            "author":"555555555555555555",
+            "list_type":"ershou_maxina",
+            "update_time_txt":"2017.12.25",
+            "top_txt":"",
+            "price":"54",
+            "car_license":"2016 - يىل",
+            "mileage":"550000 كىلومىتىر",
+            "price_txt":"540000 ￥",
+            "discharge":"گو تۆت",
+            "original_price":"152000",
+            "original_price_txt":"152000 ￥"
+        }
+    ],
+    "access_token":"c4f3cb50AgdVBgkDVgVUBlpWAAhXCwJRDFdRBVNQDgVUUQkEAwQCaFQGCQNWBVRVAVMG",
+    "account":{
+        "user_id":"42252786UwVSVgcEBgUAVgEFCAEJVQJXUlxUDlQAWloDA1QHAwZTB1VeAQc1c1c1c1c1c1c1c1",
+        "name":"Happy22",
+        "sex":"2",
+        "face":"http://192.168.199.200/Static/ico_list/user2.png",
+        "level_thumb":"http://192.168.199.200/Static/ico_list/kexin.png",
+        "level_name":"يېڭى ئەزا",
+        "sex_txt":"ئەر"
+    }
+}

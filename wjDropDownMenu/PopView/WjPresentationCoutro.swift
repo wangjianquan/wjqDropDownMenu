@@ -12,6 +12,7 @@ class WjPresentationCoutro: UIPresentationController {
 
     var presentedFrame:CGRect = CGRect.zero
     
+    
     override func containerViewWillLayoutSubviews() {
         // containerView  容器视图,所有modal的视图都被添加到它上
         // presentedView () 拿到弹出视图
@@ -28,10 +29,11 @@ extension WjPresentationCoutro {
     
     fileprivate  func setupMaskView() {
         // 1.创建蒙版
-        let maskView = UIView(frame: containerView!.bounds)
+        let maskView = UIView(frame: CGRect(x: 0, y: presentedFrame.origin.y, width: (containerView?.frame.size.width)!, height: (containerView?.frame.size.height)!))
+
         
         // 2.设置蒙版的颜色
-        maskView.backgroundColor = UIColor(white: 0.7, alpha: 0.2)
+        maskView.backgroundColor = UIColor(white: 0, alpha: 0.5)
         
         // 3.监听蒙版的点击
         let tapGes = UITapGestureRecognizer(target: self, action: #selector(WjPresentationCoutro.maskViewClick))

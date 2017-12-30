@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tit</key>
+		<string>区域</string>
+		<key>subTitle</key>
+		<string>选择</string>
+		<key>type</key>
+		<string>Double_Table</string>
+		<key>isEdit</key>
+		<string>false</string>
+	</dict>
+	<dict>
+		<key>tit</key>
+		<string>面积</string>
+		<key>subTitle</key>
+		<string>填写</string>
+		<key>type</key>
+		<string>table</string>
+		<key>isEdit</key>
+		<string>false</string>
+	</dict>
+	<dict>
+		<key>tit</key>
+		<string>租金</string>
+		<key>subTitle</key>
+		<string>填写</string>
+		<key>type</key>
+		<string>collection</string>
+		<key>isEdit</key>
+		<string>true</string>
+	</dict>
+	<dict>
+		<key>tit</key>
+		<string>更多</string>
+		<key>subTitle</key>
+		<string>选择</string>
+		<key>type</key>
+		<string>section_collection</string>
+		<key>isEdit</key>
+		<string>false</string>
+	</dict>
+</array>
+</plist>

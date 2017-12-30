@@ -24,9 +24,25 @@ class BaseViewController: UIViewController {
         lableView.btnActionBlock = {[weak self] (btn, isSelected) -> () in
             
          
-            print("\(String(describing: btn.currentTitle))  \(btn.isSelected)")
+//            print("\(String(describing: btn.currentTitle))  \(btn.isSelected)")
             
         }
+        
+        
+        // 获取文件路径
+        let filePath = Bundle.main.path(forResource: "usedCar.json", ofType: nil)
+        let jsonData = NSData(contentsOfFile: filePath!)
+        
+        do {
+        
+            let json = try JSONSerialization.jsonObject(with: jsonData! as Data, options:[]) as! [String:AnyObject]
+            
+            print("\(json)")
+            
+        }catch{
+              print("error")
+        }
+        
         view.addSubview(lableView)
         
     }

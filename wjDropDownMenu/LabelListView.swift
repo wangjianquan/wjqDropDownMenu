@@ -46,7 +46,7 @@ class LabelListView: UIView {
                 label_Width = string.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height:CGFloat(MAXFLOAT)), options: .usesFontLeading, attributes: [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 13)], context: nil).size.width + 20
                 self.widthArray.append(label_Width)
                 
-                print("widtharray: --- \(self.widthArray)")
+//                print("widtharray: --- \(self.widthArray)")
                 contentSizeWidth += label_Width
             }
             scrollview.contentSize = CGSize(width: label_Width + itemSpace * CGFloat(names.count) + 30 , height: 0)
